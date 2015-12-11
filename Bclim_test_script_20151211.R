@@ -14,4 +14,5 @@ sluggan_pollen = read.table('data/Sluggan_pollen.txt',header=TRUE)
 sluggan_chrons = read.table('data/Sluggan_chrons.txt',header=TRUE)
 
 # Run the layer_clouds function
-layer_clouds(sluggan_pollen,path_to_rs = 'http://mathsci.ucd.ie/~parnell_a/')
+layers = layer_clouds(sluggan_pollen,path_to_rs = 'http://mathsci.ucd.ie/~parnell_a/')
+
